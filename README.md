@@ -8,10 +8,11 @@ These solutions are for learning purposes only.
 - **Status:** In progress 🚀
 - 
 ## Structure
-\```
 Python-HackerRank-Solutions/
 ├── Introduction/
+│   └── python_if_else.py
 ├── Basic-Data-Types/
+│   └── finding_the_percentage.py
 ├── Strings/
 ├── Sets/
 ├── Math/
@@ -27,4 +28,3 @@ Python-HackerRank-Solutions/
 ├── Closures-and-Decorators/
 ├── Numpy/
 └── Debugging/
-\``
