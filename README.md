@@ -28,4 +28,26 @@ Python-HackerRank-Solutions/
 ├── Closures-and-Decorators/
 ├── Numpy/
 └── Debugging/
+
+
+## Progress
+| Subdomain | Solved |
+|---|---|
+| Introduction | 7 |
+| Basic Data Types | 0 |
+| Strings | 0 |
+| Sets | 0 |
+| Math | 0 |
+| Itertools | 0 |
+| Collections | 0 |
+| Date and Time | 0 |
+| Errors and Exceptions | 0 |
+| Classes | 0 |
+| Built-Ins | 0 |
+| Python Functionals | 0 |
+| Regex and Parsing | 0 |
+| XML | 0 |
+| Closures and Decorators | 0 |
+| Numpy | 0 |
+| Debugging | 0 |
 ```
