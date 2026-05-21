@@ -88,7 +88,8 @@ def print_rangoli(size):
         line = '-'.join(row)
         lines.append(line)
     
-    # Create the full pattern (top + bottom mirror)
+    # Create the full pattern (top + bottom mirror) 
+    # lines[-2] means "second from last item", [::-1] means "reverse the list", lines[-2::-1] means "take everything from the second-to-last item to the beginning, reversed"
     all_lines = lines + lines[-2::-1]
     
     # Width is the length of the middle line (widest)
