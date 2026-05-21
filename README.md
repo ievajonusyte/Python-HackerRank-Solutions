@@ -34,7 +34,7 @@ Python-HackerRank-Solutions/
 | Subdomain | Solved |
 |---|---|
 | Introduction | 7 |
-| Basic Data Types | 0 |
+| Basic Data Types | 6 |
 | Strings | 0 |
 | Sets | 0 |
 | Math | 0 |
