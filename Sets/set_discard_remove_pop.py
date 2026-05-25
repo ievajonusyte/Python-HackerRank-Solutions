@@ -52,7 +52,7 @@ for _ in range(num_commands): # loop through commands, _ is used because we don'
     
     if command[0] == 'pop':
         s.pop() # if command is "pop", remove an arbitrary element from set, no parameter needed
-    elif command[0] == 'remove'
+    elif command[0] == 'remove':
         s.remove(int(command[1])) # if command is "remove X"  converts it to integer, remove that specific element from the set, raises error if element doesn't exist
     elif command[0] == 'discard':
         s.discard(int(command[1])) # if command is "discard X" converts string to integer,remove that specific element from the set, no error if element doesn't exist
