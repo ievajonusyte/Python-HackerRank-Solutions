@@ -36,7 +36,7 @@ Python-HackerRank-Solutions/
 | Introduction | 7 |
 | Basic Data Types | 6 |
 | Strings | 14 |
-| Sets | 0 |
+| Sets | 13 |
 | Math | 0 |
 | Itertools | 0 |
 | Collections | 0 |
