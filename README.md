@@ -38,7 +38,7 @@ Python-HackerRank-Solutions/
 | Strings | 14 |
 | Sets | 13 |
 | Math | 7 |
-| Itertools | 0 |
+| Itertools | 7 |
 | Collections | 0 |
 | Date and Time | 0 |
 | Errors and Exceptions | 0 |
