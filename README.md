@@ -40,7 +40,7 @@ Python-HackerRank-Solutions/
 | Math | 7 |
 | Itertools | 7 |
 | Collections | 8 |
-| Date and Time | 0 |
+| Date and Time | 2 |
 | Errors and Exceptions | 0 |
 | Classes | 0 |
 | Built-Ins | 0 |
