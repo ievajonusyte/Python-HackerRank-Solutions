@@ -41,7 +41,7 @@ Python-HackerRank-Solutions/
 | Itertools | 7 |
 | Collections | 8 |
 | Date and Time | 2 |
-| Errors and Exceptions | 0 |
+| Errors and Exceptions | 2 |
 | Classes | 0 |
 | Built-Ins | 0 |
 | Python Functionals | 0 |
