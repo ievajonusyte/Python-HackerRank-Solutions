@@ -4,6 +4,7 @@ import math
 You are given four points A, B, C and D in a 3-dimensional Cartesian coordinate system.
 You are required to print the angle between the plane made by points A, B, C and
 the plane made by points B, C, D. The angle should be in degrees (not radians).
+Like the angle between two pages of an open book.
 
 Formula: cos(PHI) = (X.Y) / (|X||Y|)
 where X = AB x BC and Y = BC x CD
