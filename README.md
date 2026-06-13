@@ -42,8 +42,8 @@ Python-HackerRank-Solutions/
 | Collections | 8 |
 | Date and Time | 2 |
 | Errors and Exceptions | 2 |
-| Classes | 0 |
-| Built-Ins | 0 |
+| Classes | 2 |
+| Built-Ins | 6 |
 | Python Functionals | 0 |
 | Regex and Parsing | 0 |
 | XML | 0 |
