@@ -1,8 +1,5 @@
 import re
 '''
-Here's the task in plain English:
-
-Validating Email Addresses with Filter
 You are given a list of email addresses. Your task is to print only the valid ones, sorted in alphabetical order.
 A valid email must follow these rules:
 
@@ -12,18 +9,13 @@ The website name can only contain letters and digits
 The extension can only contain letters
 The extension can be at most 3 characters long
 
-Input
-The first line contains an integer n - the number of email addresses. Each of the next n lines contains one email string.
-Output
-Print a list of valid email addresses in alphabetical order.
+Input:the first line contains an integer n - the number of email addresses. Each of the next n lines contains one email string.
+Output:print a list of valid email addresses in alphabetical order.
 '''
 
 def fun(s):
     pattern = r'^[a-zA-Z0-9_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{1,3}$' # return True if s is a valid email, else return False
     return bool(re.match(pattern, s))  # match returns None if no match, so wrap in bool
-
-def filter_mail(emails):
-    return list(filter(fun, emails))  # keep only emails where fun() returns True
 
 def filter_mail(emails):
     return list(filter(fun, emails))
