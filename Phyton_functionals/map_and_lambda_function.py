@@ -1,3 +1,9 @@
+'''
+Given an integer n, generate the first n Fibonacci numbers (starting from 0) and print a list of their cubes.
+Input: One integer n (0 <= n <= 15).
+Output: A list of the cubes of the first n Fibonacci numbers.
+'''
+
 cube = lambda x: x ** 3  # raise x to the power of 3
 
 def fibonacci(n):
