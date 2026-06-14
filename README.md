@@ -44,7 +44,7 @@ Python-HackerRank-Solutions/
 | Errors and Exceptions | 2 |
 | Classes | 2 |
 | Built-Ins | 6 |
-| Python Functionals | 0 |
+| Python Functionals | 3 |
 | Regex and Parsing | 0 |
 | XML | 0 |
 | Closures and Decorators | 0 |
