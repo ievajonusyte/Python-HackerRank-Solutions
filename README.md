@@ -45,7 +45,7 @@ Python-HackerRank-Solutions/
 | Classes | 2 |
 | Built-Ins | 6 |
 | Python Functionals | 3 |
-| Regex and Parsing | 0 |
+| Regex and Parsing | 17|
 | XML | 0 |
 | Closures and Decorators | 0 |
 | Numpy | 0 |
