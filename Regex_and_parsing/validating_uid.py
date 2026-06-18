@@ -15,10 +15,10 @@ t = int(input())
 for _ in range(t):
     uid = input()
     if (len(uid) == 10
-            and re.search(r'[A-Z]{2,}', uid) # contain at least 2 uppercase letters 
-            and re.search(r'\d{3,}', uid) # contain at least 3 digits
+            and len([c for c in uid if c.isupper()]) >= 2 # contain at least 2 uppercase letters
+            and len([c for c in uid if c.isdigit()]) >= 3 # contain at least 3 digits
             and re.match(r'^[a-zA-Z0-9]+$', uid) # contain only alphanumeric characters
-            and len(uid) == len(set(uid))): # no repeating characters
+            and len(uid) == len(set(uid))): # have no repeating characters
         print("Valid")
     else:
         print("Invalid")
