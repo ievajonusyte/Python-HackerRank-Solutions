@@ -1,7 +1,5 @@
 from html.parser import HTMLParser
 '''
-HTML Parser - Part 1
-
 Task:
 You are given an HTML code snippet of N lines.
 Your task is to print start tags, end tags and empty tags separately.
@@ -36,30 +34,24 @@ Constraints:
 0 < N < 100
 
 Output Format:
-Print the HTML tags, attributes and attribute values in order of their
-occurrence from top to bottom in the given snippet.
+Print the HTML tags, attributes and attribute values in order of their occurrence from top to bottom in the given snippet.
 '''
 
 class MyHTMLParser(HTMLParser):
 
-    def handle_starttag(self, tag, attrs):
-        # Print the opening tag name
-        print("Start :", tag)
-        # Print each attribute and its value
+    def handle_starttag(self, tag, attrs): # Print the opening tag name
+        print("Start :", tag) # Print each attribute and its value
         for attr_name, attr_value in attrs:
             if attr_value is None:
                 print("-> {} > None".format(attr_name))
             else:
                 print("-> {} > {}".format(attr_name, attr_value))
 
-    def handle_endtag(self, tag):
-        # Print the closing tag name
+    def handle_endtag(self, tag): # Print the closing tag name
         print("End   :", tag)
 
-    def handle_startendtag(self, tag, attrs):
-        # Print self-closing (empty) tag name
-        print("Empty :", tag)
-        # Print each attribute and its value
+    def handle_startendtag(self, tag, attrs): 
+        print("Empty :", tag) # Print each attribute and its value
         for attr_name, attr_value in attrs:
             if attr_value is None:
                 print("-> {} > None".format(attr_name))
