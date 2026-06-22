@@ -46,8 +46,8 @@ Python-HackerRank-Solutions/
 | Built-Ins | 6 |
 | Python Functionals | 3 |
 | Regex and Parsing | 17|
-| XML | 0 |
-| Closures and Decorators | 0 |
+| XML | 2 |
+| Closures and Decorators | 2 |
 | Numpy | 0 |
 | Debugging | 0 |
 ```
