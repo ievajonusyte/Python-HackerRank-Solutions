@@ -48,6 +48,6 @@ Python-HackerRank-Solutions/
 | Regex and Parsing | 17|
 | XML | 2 |
 | Closures and Decorators | 2 |
-| Numpy | 0 |
-| Debugging | 0 |
+| Numpy | 15 |
+| Debugging | 2 |
 ```
