@@ -5,8 +5,7 @@ These solutions are for learning purposes only.
 ## About
 - **Language:** Python 3
 - **Platform:** HackerRank
-- **Status:** In progress 🚀
-
+- **Status:** Done 
 ## Structure
 
 ```
